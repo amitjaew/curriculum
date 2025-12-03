@@ -5,6 +5,7 @@
 #let email = "alexey.mitjaew@sansano.usm.cl"
 #let github = "github.com/amitjaew"
 #let linkedin = "https://www.linkedin.com/in/alexey-mitjaew-9645a1348"
+// link("linkedin")[#"https://www.linkedin.com/in/alexey-mitjaew-9645a1348"]
 #let phone = "+56 9 4460 7422"
 // # let personal-site = "stuxf.dev"
 
@@ -88,8 +89,8 @@
         location: "Remoto",
         company: "MyFuture AI",
         dates: dates-helper(
-          start-date: "Jun 2022",
-          end-date: "Ago 2022"
+          start-date: "Dic 2023",
+          end-date: "Feb 2024"
         ),
         content: (
           "Lideré el desarrollo frontend para un chatbot orientado a productividad",
@@ -101,8 +102,8 @@
         location: "Remoto",
         company: "MyFuture AI",
         dates: dates-helper(
-          start-date: "Sep 2022",
-          end-date: "Dic 2022"
+          start-date: "Marzo 2024",
+          end-date: "Junio 2024"
         ),
         content: (
           "Desarrollé soluciones fullstack orientadas a datos para un contrato único",
@@ -111,9 +112,9 @@
         ),
       ),
       (
-        title: "Practicante de Ingeniería de Software",
-        location: "Universidad Técnica Federico Santa María",
-        company: "Universidad Técnica Federico Santa María, Híbrido",
+        title: "Practicante de Ingeniero de Software",
+        location: "Universidad Técnica Federico Santa María, Híbrido",
+        company: "Universidad Técnica Federico Santa María",
         dates: dates-helper(
           start-date: "Ago 2025",
           end-date: "Dic 2025"
@@ -142,8 +143,8 @@
         (
           name: "Kokoro Chat",
           role: "Fullstack Developer",
-          dates: dates-helper(start-date: "Present", end-date: "Present"),
-          url: "",
+          dates: "", // dates-helper(start-date: "Present", end-date: "Present"),
+          url: "https://gitlab.com/amitjaew/kokoro-ai",
           content: (
             "Developed a 3D AI companion with a complete and customizable experience",
             "Key functionalities: upload custom 3D character models (VRM standard), live text-to-speech rendering with lipsync, and customizable character personalities via prompt modification",
@@ -153,8 +154,8 @@
         (
           name: "Satoshis Palace",
           role: "Fullstack Developer",
-          dates: dates-helper(start-date: "Nov 2023", end-date: "Present"),
-          url: "",
+          dates: "", //dates-helper(start-date: "Nov 2023", end-date: "Present"),
+          url: "https://gitlab.com/amitjaew/casino",
           content: (
             "Developed a mobile-friendly online casino supporting multiple cryptocurrencies",
             "Implemented Slot Machine Abstract Factory pattern to create multi-stage slot machine games with minimal code",
@@ -181,15 +182,15 @@
     developer: (
       course-work: "Cursos realizados en Diseño de Aplicaciones Web y Móviles, Ingeniería de Software, Análisis y Diseño de Software, Programación Orientada a Objetos, Estructuras de Datos y Algoritmos, Sistemas Operativos, Redes de Computadores, Sistemas de Bases de Datos, Criptografía y Seguridad de la Información, Aprendizaje Automático, Visión por Computador.",
       skills: (
-        [*Lenguajes de Programación*: JavaScript, TypeScript, Python, C/C++, HTML/CSS, Java, Dart, Bash],
-        [*Tecnologías*: React, Svelte, Tailwind CSS, FastAPI, NestJS, Docker, Colyseus, RabbitMQ, Redux, Google Charts, Langchain, ScikitLearn, UNIX, Git, AWS],
+        [*Lenguajes de Programación*: JavaScript, TypeScript, Python, C/C++, HTML/CSS, Rust],
+        [*Tecnologías*: React, Svelte, Tailwind CSS, FastAPI, NestJS, Docker, Colyseus, RabbitMQ, Redux, Google Charts, Langchain, ScikitLearn, Linux, Git, AWS],
       ),
       projects: (
         (
           name: "Kokoro Chat",
           role: "Desarrollador Fullstack",
           dates: dates-helper(start-date: "Presente", end-date: "Presente"),
-          url: "",
+          url: "https://gitlab.com/amitjaew/kokoro-ai",
           content: (
             "Desarrollé un compañero de IA 3D con una experiencia completa y personalizable",
             "Funcionalidades clave: carga de modelos 3D personalizados (estándar VRM), renderizado en tiempo real de texto a voz con sincronización labial, y personalización de personalidades de personajes mediante modificación de prompts",
@@ -200,7 +201,7 @@
           name: "Satoshis Palace",
           role: "Desarrollador Fullstack",
           dates: dates-helper(start-date: "Nov 2023", end-date: "Presente"),
-          url: "",
+          url: "https://gitlab.com/amitjaew/casino",
           content: (
             "Desarrollé un casino en línea adaptado para móviles que soporta múltiples criptomonedas",
             "Implementé el patrón Abstract Factory para máquinas tragamonedas para crear juegos de tragamonedas multi-etapa con código mínimo",
@@ -289,7 +290,7 @@
     #project(
       name: entry.name,
       role: entry.role,
-      dates: entry.dates,
+      // dates: entry.dates,
       url: entry.url
     )
     #for bullet in entry.content {
