@@ -1,10 +1,10 @@
 #import "@preview/basic-resume:0.2.9": *
 
 #let name = "Alexey Mitjaew Hupat"
-#let location = "Los Maitenes 15800, Casa 9, Colina"
+#let location = "Chicureo, Región Metropolitana"
 #let email = "alexey.mitjaew@sansano.usm.cl"
-#let github = "github.com/amitjaew"
-#let linkedin = "https://www.linkedin.com/in/alexey-mitjaew-9645a1348"
+#let github = "" //"github.com/amitjaew"
+#let linkedin = "linktr.ee/amitjaew" //"https://www.linkedin.com/in/alexey-mitjaew-9645a1348"
 // link("linkedin")[#"https://www.linkedin.com/in/alexey-mitjaew-9645a1348"]
 #let phone = "+56 9 4460 7422"
 // # let personal-site = "stuxf.dev"
@@ -19,7 +19,7 @@
     activities: "Extracurricular Activities",
     skills: "Skills"
   ),
-  "esp": (
+  esp: (
     education: "Educación",
     work: "Experiencia Laboral",
     projects: "Proyectos",
@@ -30,7 +30,16 @@
 
 #let content_base = (
   eng: (
-    academic-performance: "Academic Merit for five consecutive years (academic score weighted average ≥ 80).",
+    academic-performance: [*Academic Merit Award* for five consecutive years (weighted academic score average ≥ 80%).],
+    // academic-performance: "Academic Merit for five consecutive years (academic score weighted average ≥ 80).",
+    skills: (
+      [*Languages*: Spanish (C1, Native) / English (B2, Professional), / Dutch (A1, Basic)],
+    ),
+    education-date: dates-helper(
+      start-date: "Jan 2020",
+      end-date: "Jan 2026"
+    ),
+    source-line: [Document source code: https://github.com/amitjaew/curriculum/blob/main/main.typ],
 
     // Work must be an array of dictionaries
     work: (
@@ -39,12 +48,13 @@
         location: "Remote",
         company: "MyFuture AI",
         dates: dates-helper(
-          start-date: "Jun 2022",
-          end-date: "Aug 2022"
+          start-date: "Dec 2023",
+          end-date: "Feb 2024"
         ),
         content: (
-          "Led frontend development for a productivity-oriented chatbot",
-          "Tools used: TypeScript, ReactJS, Tailwind CSS, and Redux"
+          "Worked on frontend development for a productivity-oriented chatbot",
+          "Implemented dynamic and responsive features to improve accessibility and user experience across multiple devices",
+          [*Tools used*: TypeScript, ReactJS, Tailwind CSS, and Redux]
         ),
       ),
       (
@@ -52,35 +62,44 @@
         location: "Remote",
         company: "MyFuture AI",
         dates: dates-helper(
-          start-date: "Sep 2022",
-          end-date: "Dec 2022"
+          start-date: "Mar 2024",
+          end-date: "Jun 2024"
         ),
         content: (
           "Developed data-oriented fullstack solutions for a one-time contract",
-          "Created a datapanel for accessing global KPI and data visualization",
-          "Tools used: FastAPI, MySQL, ReactJS, Google Charts"
+          "Created a datapanel for accessing global KPI and inventory/sales data visualization",
+          "Optimized database performance by implementing indexing on frequently queried columns, reducing general query execution time by 40%",
+          [*Tools used*: FastAPI, MySQL, ReactJS, Google Charts]
         ),
       ),
       (
         title: "Software Engineering Intern",
-        location: "Universidad Técnica Federico Santa María",
-        company: "Universidad Técnica Federico Santa María, Hybrid",
+        location: "Hybrid",
+        company: "Universidad Técnica Federico Santa María",
         dates: dates-helper(
-          start-date: "Ago 2025",
-          end-date: "Dec 2025"
+          start-date: "Aug 2025",
+          end-date: "Jan 2026"
         ),
         content: (
           "Developed Backend Systems for Teloprogramo, an AI-powered coding challenge platform for STEM students with personalized exercises and real-time feedback",
-          "Project selected for IDeA I+D 2025 innovation funding (#InnovacionUSM) for creating an inclusive system with accessibility features for visually impaired users",
+          "Project selected for IDeA I+D 2025 innovation funding for creating an inclusive system with accessibility features for visually impaired users",
           "Built systems for dynamic C++/Python challenge generation with unit test creation and code parsing/compilation",
-          "Tools used: LLM for reference solution generation, pybind for C++ solution integration, and unittest (standard python lib) for dynamic unit test creation"
+          [*Tools used*: Language Model Inference, PyBind, UnitTest (Python library)]
         ),
       ),
     ),
   ),
 
   esp: (
-    academic-performance: "Méritos Académicos por cinco años consecutivos (promedio ponderado de puntaje académico ≥ 80).",
+    academic-performance: [*Premio al Mérito Académico* por cinco años consecutivos (promedio ponderado de puntaje académico ≥ 80%).],
+    skills: (
+      [*Idiomas*: Español (C1, Nativo) / Inglés (B2, Profesional), / Neerlandés (A1, Básico)],
+    ),
+    education-date: dates-helper(
+      start-date: "Enero 2020",
+      end-date: "Enero 2026"
+    ),
+    source-line: [Código fuente documento: https://github.com/amitjaew/curriculum/blob/main/main.typ],
 
     // Work must be an array of dictionaries
     work: (
@@ -89,12 +108,13 @@
         location: "Remoto",
         company: "MyFuture AI",
         dates: dates-helper(
-          start-date: "Dic 2023",
-          end-date: "Feb 2024"
+          start-date: "Diciembre 2023",
+          end-date: "Febrero 2024"
         ),
         content: (
-          "Lideré el desarrollo frontend para un chatbot orientado a productividad",
-          "Herramientas utilizadas: TypeScript, ReactJS, Tailwind CSS y Redux"
+          "Trabajé en el desarrollo frontend de chatbot orientado a productividad",
+          "Implementé características dinámicas y responsivas para mejorar la accesibilidad y experiencia de usuario",
+          [*Herramientas utilizadas*: TypeScript, ReactJS, Tailwind CSS y Redux],
         ),
       ),
       (
@@ -107,23 +127,24 @@
         ),
         content: (
           "Desarrollé soluciones fullstack orientadas a datos para un contrato único",
-          "Creé un panel de datos para acceder a KPI globales y visualización de datos",
-          "Herramientas utilizadas: FastAPI, MySQL, ReactJS, Google Charts"
+          "Creé un panel de datos para acceder a KPIs y visualización de datos de ventas e inventario",
+          "Optimicé el rendimiento de la base de datos implementando indexes en columnas consultadas frecuentemente, reduciendo el tiempo general de ejecución de consultas en un 40%",
+          [*Herramientas utilizadas*: FastAPI, MySQL, ReactJS, Google Charts]
         ),
       ),
       (
         title: "Practicante de Ingeniero de Software",
-        location: "Universidad Técnica Federico Santa María, Híbrido",
+        location: "Híbrido",
         company: "Universidad Técnica Federico Santa María",
         dates: dates-helper(
-          start-date: "Ago 2025",
-          end-date: "Dic 2025"
+          start-date: "Agosto 2025",
+          end-date: "Enero 2026"
         ),
         content: (
           "Desarrollé sistemas backend para Teloprogramo, una plataforma de desafíos de programación con IA para estudiantes STEM con ejercicios personalizados y retroalimentación en tiempo real",
-          "Proyecto seleccionado para financiamiento de innovación IDeA I+D 2025 (#InnovacionUSM) por crear un sistema inclusivo con características de accesibilidad para usuarios con discapacidad visual",
-          "Construí sistemas para generación dinámica de desafíos en C++/Python con creación de pruebas unitarias y análisis/compilación de código",
-          "Herramientas utilizadas: LLM para generación de soluciones de referencia, pybind para integración dinámica de soluciones en C++, y unittest (librería estándar de Python) para creación dinámica de pruebas unitarias"
+          "Proyecto seleccionado para financiamiento de innovación IDeA I+D 2025 por crear un sistema inclusivo con características de accesibilidad para usuarios con discapacidad visual",
+          "Construí sistemas para generación dinámica de desafíos en C++/Python con creación de pruebas unitarias y compilación",
+          [*Herramientas utilizadas*: Inferencia de Modelos de Lenguaje, PyBind, UnitTest (librería de Python)]
         ),
       ),
     ),
@@ -131,48 +152,80 @@
 )
 
 
+#let projects_base = (
+  eng: (
+    companion: (
+      name: "Kokoro Chat",
+      role: "Fullstack Developer",
+      dates: "", // dates-helper(start-date: "Present", end-date: "Present"),
+      url: "https://gitlab.com/amitjaew/kokoro-ai",
+      content: (
+        "Developed a 3D AI companion with a complete and customizable experience",
+        "Key functionalities: upload custom 3D character models (VRM standard), live text-to-speech rendering with lipsync, and customizable character personalities via prompt modification",
+        [*Tools used*: Docker, FastAPI, Langchain, ScikitLearn, ReactJS, SQLAlchemy, PostgreSQL]
+      )
+    ),
+    casino: (
+      name: "Satoshis Palace",
+      role: "Fullstack Developer",
+      dates: "", //dates-helper(start-date: "Nov 2023", end-date: "Present"),
+      url: "https://gitlab.com/amitjaew/casino",
+      content: (
+        "Prototyped a mobile-friendly online casino supporting multiple cryptocurrencies",
+        "Implemented Slot Machine Abstract Factory pattern to create multi-stage slot machine games with minimal code",
+        "Enabled dynamic cryptocurrency switching for bets during gameplay",
+        [*Tools used*: Docker, NestJS, Colyseus, RabbitMQ, ReactJS, MySQL]
+      )
+    ),
+  ),
+  esp: (
+    companion: (
+      name: "Kokoro Chat",
+      role: "Desarrollador Fullstack",
+      dates: "", // dates-helper(start-date: "Presente", end-date: "Presente"),
+      url: "https://gitlab.com/amitjaew/kokoro-ai",
+      content: (
+        "Desarrollé una plataforma de acompañantes virtuales 3D con una experiencia completa y personalizable",
+        "La plataforma incluye: carga de modelos 3D (VRM), renderizado en tiempo real de texto a voz con sincronización labial y personalización de personajes mediante prompts",
+        [*Herramientas utilizadas*: Docker, FastAPI, Langchain, ScikitLearn, ReactJS, SQLAlchemy, PostgreSQL]
+      )
+    ),
+    casino: (
+      name: "Satoshis Palace",
+      role: "Desarrollador Fullstack",
+      dates: "", // dates-helper(start-date: "Nov 2023", end-date: "Presente"),
+      url: "https://gitlab.com/amitjaew/casino",
+      content: (
+        "Prototié casino en línea que soporta múltiples criptomonedas",
+        "Implementé el patrón Abstract Factory para creación dinámica de juegos multi-etapa en gameservers",
+        "Habilité el cambio dinámico de criptomonedas para apuestas durante el juego",
+        [*Herramientas utilizadas*: Docker, NestJS, Colyseus, RabbitMQ, ReactJS, MySQL"]
+      )
+    ),
+  )
+)
+
 #let variant_content_base = (
   eng: (
     developer: (
-      course-work: "Attended courses in Web & Mobile Application Design, Software Engineering, Analysis & Design of Software, Object-Oriented Programming, Data Structures & Algorithms, Operating Systems, Computer Networks, Database Systems, Cryptography & Information Security, Machine Learning, Computer Vision.",
+      course-work: [*Attended courses* in Web & Mobile Application Design, Software Engineering, Analysis & Design of Software, Object-Oriented Programming, Data Structures & Algorithms, Operating Systems, Computer Networks, Database Systems, Cryptography & Information Security, Machine Learning, Computer Vision.],
       skills: (
-        [*Programming Languages*: JavaScript, TypeScript, Python, C/C++, HTML/CSS, Java, Dart, Bash],
-        [*Technologies*: React, Svelte, Tailwind CSS, FastAPI, NestJS, Docker, Colyseus, RabbitMQ, Redux, Google Charts, Langchain, ScikitLearn, UNIX, Git, AWS],
+        [*Programming Languages*: Python, JavaScript, TypeScript, Rust, C++, HTML/CSS],
+        [*Technologies*: React, Svelte, Tailwind CSS, FastAPI, NestJS, Docker, Colyseus, RabbitMQ, Redux, Google Charts, Langchain, ScikitLearn, Git, AWS],
       ),
       projects: (
-        (
-          name: "Kokoro Chat",
-          role: "Fullstack Developer",
-          dates: "", // dates-helper(start-date: "Present", end-date: "Present"),
-          url: "https://gitlab.com/amitjaew/kokoro-ai",
-          content: (
-            "Developed a 3D AI companion with a complete and customizable experience",
-            "Key functionalities: upload custom 3D character models (VRM standard), live text-to-speech rendering with lipsync, and customizable character personalities via prompt modification",
-            "Tools used: Docker, FastAPI, Langchain, ScikitLearn, ReactJS"
-          )
-        ),
-        (
-          name: "Satoshis Palace",
-          role: "Fullstack Developer",
-          dates: "", //dates-helper(start-date: "Nov 2023", end-date: "Present"),
-          url: "https://gitlab.com/amitjaew/casino",
-          content: (
-            "Developed a mobile-friendly online casino supporting multiple cryptocurrencies",
-            "Implemented Slot Machine Abstract Factory pattern to create multi-stage slot machine games with minimal code",
-            "Enabled dynamic cryptocurrency switching for bets during gameplay",
-            "Tools used: Docker, NestJS, Colyseus, RabbitMQ, ReactJS"
-          )
-        ),
+        projects_base.eng.companion,
+        projects_base.eng.casino
       )
     ),
     datascience: (
-      course-work: "Attended courses in Probability & Random Processes, Numerical Analysis, Data Mining, Machine Learning, Digital Image Processing, Computer Vision, Operations Research.",
+      course-work: [*Attended courses* in Probability & Random Processes, Numerical Analysis, Data Mining, Machine Learning, Digital Image Processing, Computer Vision, Operations Research.],
       projects: (
 
       )
     ),
     machine-learning: (
-      course-work: "Attended courses in Machine Learning, Computer Vision, Data Mining, Digital Image Processing, Probability & Random Processes, Linear Algebra, Numerical Analysis, Digital Communications, Signal Processing",
+      course-work: [*Attended courses* in Machine Learning, Computer Vision, Data Mining, Digital Image Processing, Probability & Random Processes, Linear Algebra, Numerical Analysis, Digital Communications, Signal Processing],
       projects: (
 
       )
@@ -180,35 +233,14 @@
   ),
   esp: (
     developer: (
-      course-work: "Cursos realizados en Diseño de Aplicaciones Web y Móviles, Ingeniería de Software, Análisis y Diseño de Software, Programación Orientada a Objetos, Estructuras de Datos y Algoritmos, Sistemas Operativos, Redes de Computadores, Sistemas de Bases de Datos, Criptografía y Seguridad de la Información, Aprendizaje Automático, Visión por Computador.",
+      course-work: [*Cursos Realizados*: Diseño de Aplicaciones Web y Móviles, Ingeniería de Software, Análisis y Diseño de Software, Programación Orientada a Objetos, Estructuras de Datos y Algoritmos, Sistemas Operativos, Redes de Computadores, Sistemas de Bases de Datos, Criptografía y Seguridad de la Información, Aprendizaje Automático, Visión por Computador.],
       skills: (
-        [*Lenguajes de Programación*: JavaScript, TypeScript, Python, C/C++, HTML/CSS, Rust],
+        [*Lenguajes de Programación*: Python, JavaScript, TypeScript, Rust, C++, HTML/CSS],
         [*Tecnologías*: React, Svelte, Tailwind CSS, FastAPI, NestJS, Docker, Colyseus, RabbitMQ, Redux, Google Charts, Langchain, ScikitLearn, Linux, Git, AWS],
       ),
       projects: (
-        (
-          name: "Kokoro Chat",
-          role: "Desarrollador Fullstack",
-          dates: dates-helper(start-date: "Presente", end-date: "Presente"),
-          url: "https://gitlab.com/amitjaew/kokoro-ai",
-          content: (
-            "Desarrollé un compañero de IA 3D con una experiencia completa y personalizable",
-            "Funcionalidades clave: carga de modelos 3D personalizados (estándar VRM), renderizado en tiempo real de texto a voz con sincronización labial, y personalización de personalidades de personajes mediante modificación de prompts",
-            "Herramientas utilizadas: Docker, FastAPI, Langchain, ScikitLearn, ReactJS"
-          )
-        ),
-        (
-          name: "Satoshis Palace",
-          role: "Desarrollador Fullstack",
-          dates: dates-helper(start-date: "Nov 2023", end-date: "Presente"),
-          url: "https://gitlab.com/amitjaew/casino",
-          content: (
-            "Desarrollé un casino en línea adaptado para móviles que soporta múltiples criptomonedas",
-            "Implementé el patrón Abstract Factory para máquinas tragamonedas para crear juegos de tragamonedas multi-etapa con código mínimo",
-            "Habilité el cambio dinámico de criptomonedas para apuestas durante el juego",
-            "Herramientas utilizadas: Docker, NestJS, Colyseus, RabbitMQ, ReactJS"
-          )
-        ),
+        projects_base.esp.companion,
+        projects_base.esp.casino,
       )
     ),
   )
@@ -258,7 +290,7 @@
 #edu(
   institution:  "Universidad Técnica Federico Santa María",
   location: "Región Metropolitana, Campus San Joaquín",
-  dates: dates-helper(start-date: "Enero 2020", end-date: "Diciembre 2025"),
+  dates: content.education-date,
   degree: "Ingeniero Civil Telemático",
 
   // Uncomment the line below if you want edu formatting to be consistent with everything else
@@ -325,7 +357,14 @@
 //   date: "Oct 2024",
 // )
 
-== Skills
+== #titles.skills
+#for entry in content.skills {
+  [- #entry]
+}
 #for entry in variant_content.skills {
   [- #entry]
 }
+
+
+#v(5pt)
+#align(right)[#content.source-line]
