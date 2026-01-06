@@ -1,18 +1,3 @@
 {
-  "lsp": {
-    "tinymist": {
-      "settings": {
-        "exportPdf": "onSave",
-        "outputPath": "$root/$name"
-      },
-
-      "initialization_options": {
-        "preview": {
-          "background": {
-            "enabled": true
-          }
-        }
-      }
-    }
-  }
+  "soft_wrap": "editor_width"
 }

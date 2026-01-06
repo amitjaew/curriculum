@@ -158,7 +158,7 @@
       name: "Kokoro Chat",
       role: "Fullstack Developer",
       dates: "", // dates-helper(start-date: "Present", end-date: "Present"),
-      url: "https://gitlab.com/amitjaew/kokoro-ai",
+      url: "gitlab.com/amitjaew/kokoro-ai",
       content: (
         "Developed a 3D AI companion with a complete and customizable experience",
         "Key functionalities: upload custom 3D character models (VRM standard), live text-to-speech rendering with lipsync, and customizable character personalities via prompt modification",
@@ -169,7 +169,7 @@
       name: "Satoshis Palace",
       role: "Fullstack Developer",
       dates: "", //dates-helper(start-date: "Nov 2023", end-date: "Present"),
-      url: "https://gitlab.com/amitjaew/casino",
+      url: "gitlab.com/amitjaew/casino",
       content: (
         "Prototyped a mobile-friendly online casino supporting multiple cryptocurrencies",
         "Implemented Slot Machine Abstract Factory pattern to create multi-stage slot machine games with minimal code",
@@ -183,7 +183,7 @@
       name: "Kokoro Chat",
       role: "Desarrollador Fullstack",
       dates: "", // dates-helper(start-date: "Presente", end-date: "Presente"),
-      url: "https://gitlab.com/amitjaew/kokoro-ai",
+      url: "gitlab.com/amitjaew/kokoro-ai",
       content: (
         "Desarrollé una plataforma de acompañantes virtuales 3D con una experiencia completa y personalizable",
         "La plataforma incluye: carga de modelos 3D (VRM), renderizado en tiempo real de texto a voz con sincronización labial y personalización de personajes mediante prompts",
@@ -194,9 +194,9 @@
       name: "Satoshis Palace",
       role: "Desarrollador Fullstack",
       dates: "", // dates-helper(start-date: "Nov 2023", end-date: "Presente"),
-      url: "https://gitlab.com/amitjaew/casino",
+      url: "gitlab.com/amitjaew/casino",
       content: (
-        "Prototié casino en línea que soporta múltiples criptomonedas",
+        "Prototipé casino en línea que soporta múltiples criptomonedas",
         "Implementé el patrón Abstract Factory para creación dinámica de juegos multi-etapa en gameservers",
         "Habilité el cambio dinámico de criptomonedas para apuestas durante el juego",
         [*Herramientas utilizadas*: Docker, NestJS, Colyseus, RabbitMQ, ReactJS, MySQL"]
@@ -246,7 +246,7 @@
   )
 )
 
-#let lang = "eng"
+#let lang = "esp"
 #let variant = "developer"
 #let titles = titles_base.at(lang)
 #let content = content_base.at(lang)
