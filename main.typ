@@ -39,6 +39,7 @@
       start-date: "Jan 2020",
       end-date: "Jan 2026"
     ),
+    education-degree: "Senior-year student in Telematics Engineering",
     source-line: [Document source code: https://github.com/amitjaew/curriculum/blob/main/main.typ],
 
     // Work must be an array of dictionaries
@@ -99,6 +100,7 @@
       start-date: "Enero 2020",
       end-date: "Enero 2026"
     ),
+    education-degree: "Estudiante de último año Ingenieria Civil Telemática",
     source-line: [Código fuente documento: https://github.com/amitjaew/curriculum/blob/main/main.typ],
 
     // Work must be an array of dictionaries
@@ -177,6 +179,20 @@
         [*Tools used*: Docker, NestJS, Colyseus, RabbitMQ, ReactJS, MySQL]
       )
     ),
+    muneca_bielorrusa: (
+      name: "Twitter Analysis of the Belarusian Doll Case in Chile",
+      role: "Network and Sentiment Analysis Project",
+      dates: "",
+      url: "github.com/amitjaew/twitter_community_analysis",
+      content: (
+        "Extracted tweets from X related to the Belarusian Doll case",
+        "Performed sentiment analysis to characterize the emotional tone of the discourse",
+        "Built interaction graphs and detected communities",
+        "Identified patterns of polarization and potential discursive bubbles",
+        [*Authors*: Alexey Mitjaew, Patricio Salvatierra, Aymara Rojas],
+        [*Tools used*: Python, Selenium, pandas, networkx, pysentimiento, Louvain]
+      )
+    ),
   ),
   esp: (
     companion: (
@@ -201,6 +217,17 @@
         "Habilité el cambio dinámico de criptomonedas para apuestas durante el juego",
         [*Herramientas utilizadas*: Docker, NestJS, Colyseus, RabbitMQ, ReactJS, MySQL"]
       )
+    ),
+    muneca_bielorrusa: (
+      name: "Análisis de Tweets sobre el Caso Muñeca Bielorrusa en Chile",
+      role: "Desarrollador",
+      dates: "",
+      url: "github.com/amitjaew/muneca_bielorrusa",
+      content: ([
+          Análisis de contenido en Twitter sobre el caso "Muñeca Bielorrusa". Este trabajo presenta extracción de datos de X (Twitter) mediante scraping, análisis de sentimientos y detección de comunidades para identificar burbujas discusivas.
+
+          *Herramientas*: Python, Selenium, pandas, networkx, pysentimiento, Louvain
+      ],)
     ),
   )
 )
@@ -240,7 +267,8 @@
       ),
       projects: (
         projects_base.esp.companion,
-        projects_base.esp.casino,
+        projects_base.esp.muneca_bielorrusa
+        // projects_base.esp.casino,
       )
     ),
   )
@@ -291,7 +319,7 @@
   institution:  "Universidad Técnica Federico Santa María",
   location: "Región Metropolitana, Campus San Joaquín",
   dates: content.education-date,
-  degree: "Ingeniero Civil Telemático",
+  degree: content.education-degree,
 
   // Uncomment the line below if you want edu formatting to be consistent with everything else
   consistent: true
