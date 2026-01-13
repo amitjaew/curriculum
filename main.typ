@@ -196,7 +196,7 @@
       dates: "", // dates-helper(start-date: "Nov 2023", end-date: "Presente"),
       url: "gitlab.com/amitjaew/casino",
       content: (
-        "Prototipé casino en línea que soporta múltiples criptomonedas",
+        "Prototipé un casino online con soporte para múltiples criptomonedas",
         "Implementé el patrón Abstract Factory para creación dinámica de juegos multi-etapa en gameservers",
         "Habilité el cambio dinámico de criptomonedas para apuestas durante el juego",
         [*Herramientas utilizadas*: Docker, NestJS, Colyseus, RabbitMQ, ReactJS, MySQL"]
