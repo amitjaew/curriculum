@@ -39,7 +39,7 @@
       start-date: "Jan 2020",
       end-date: "Jan 2026"
     ),
-    education-degree: "Senior-year student in Telematics Engineering",
+    education-degree: "Telecommunications and Computer Networks Engineering",
     source-line: [Document source code: https://github.com/amitjaew/curriculum/blob/main/main.typ],
 
     // Work must be an array of dictionaries
@@ -100,7 +100,7 @@
       start-date: "Enero 2020",
       end-date: "Enero 2026"
     ),
-    education-degree: "Estudiante de último año Ingenieria Civil Telemática",
+    education-degree: "Ingeniería Civil Telemática",
     source-line: [Código fuente documento: https://github.com/amitjaew/curriculum/blob/main/main.typ],
 
     // Work must be an array of dictionaries
