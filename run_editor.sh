@@ -1,3 +1,3 @@
 #!/bin/sh
-zed .
+zeditor .
 typst watch main.typ
