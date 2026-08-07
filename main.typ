@@ -30,7 +30,7 @@
 
 #let content_base = (
   eng: (
-    academic-performance: [*Academic Merit Award* for five consecutive years (weighted academic score average ≥ 80%).],
+    academic-performance: [*Academic Merit Award* for six consecutive years (weighted academic score average ≥ 80%).],
     // academic-performance: "Academic Merit for five consecutive years (academic score weighted average ≥ 80).",
     skills: (
       [*Languages*: Spanish (Native) / English (Professional)],
@@ -50,11 +50,11 @@
         company: "Magnar",
         dates: dates-helper(
           start-date: "Feb 2026",
-          end-date: "Present",
+          end-date: "Jun 2026",
         ),
         content: (
           "Developed scraping/extraction modules for Latin American institutional legal documents, integrated into the knowledge base of a generative AI system",
-          [*Tools used*: TypeScript, Web scraping],
+          [*Tools used*: TypeScript, Web scraping, Claude Code, GitHub Actions],
         ),
       ),
       (
@@ -83,7 +83,7 @@
         content: (
           "Developed data-oriented fullstack solutions for a one-time contract",
           "Created a datapanel for accessing global KPI and inventory/sales data visualization",
-          "Optimized database performance by implementing indexing on frequently queried columns, reducing general query execution time by 40%",
+
           [*Tools used*: FastAPI, MySQL, ReactJS, Google Charts],
         ),
       ),
@@ -105,7 +105,7 @@
   ),
 
   esp: (
-    academic-performance: [*Premio al Mérito Académico* por cinco años consecutivos (promedio ponderado de puntaje académico ≥ 80%).],
+    academic-performance: [*Premio al Mérito Académico* por seis años consecutivos (promedio ponderado de puntaje académico ≥ 80%).],
     skills: (
       [*Idiomas*: Español (Nativo) / Inglés (Profesional)],
     ),
@@ -124,11 +124,11 @@
         company: "Magnar",
         dates: dates-helper(
           start-date: "Febrero 2026",
-          end-date: "Presente",
+          end-date: "Junio 2026",
         ),
         content: (
           "Desarrollo de módulos de scraping/extracción de documentos jurídicos de fuentes institucionales latinoamericanas, integrados a la base de conocimiento de un sistema de IA generativa",
-          [*Herramientas utilizadas*: TypeScript, Web scraping],
+          [*Herramientas utilizadas*: TypeScript, Web scraping, Claude Code, GitHub Actions],
         ),
       ),
       (
@@ -157,7 +157,7 @@
         content: (
           "Desarrollé soluciones fullstack orientadas a datos para un contrato único",
           "Creé un panel de datos para acceder a KPIs y visualización de datos de ventas e inventario",
-          "Optimicé el rendimiento de la base de datos implementando indexes en columnas consultadas frecuentemente, reduciendo el tiempo general de ejecución de consultas en un 40%",
+
           [*Herramientas utilizadas*: FastAPI, MySQL, ReactJS, Google Charts],
         ),
       ),
@@ -206,8 +206,8 @@
       ),
     ),
     muneca_bielorrusa: (
-      name: "Twitter Analysis of the Belarusian Doll Case in Chile",
-      role: "Network and Sentiment Analysis Project",
+      name: "Twitter Analysis",
+      role: "Data Analyst",
       dates: "",
       url: "github.com/amitjaew/twitter_community_analysis",
       content: (
@@ -217,6 +217,17 @@
         "Identified patterns of polarization and potential discursive bubbles",
         [*Authors*: Alexey Mitjaew, Patricio Salvatierra, Aymara Rojas],
         [*Tools used*: Python, Selenium, pandas, networkx, pysentimiento, Louvain],
+      ),
+    ),
+    sensoria: (
+      name: "SensorIA",
+      role: "Developer",
+      dates: "",
+      url: "github.com/amitjaew/informe-memoria",
+      content: (
+        "Designed and developed an accessible web platform that transforms artworks into immersive audio experiences for visually impaired users using multimodal AI",
+        "Built multimodal content generation pipelines: historical metadata extraction and synthesis with LLMs; descriptive audio with vision-language models and TTS; and interactive soundscapes generated via image segmentation, semantic detection, and diffusion-based audio synthesis",
+        [*Tools used*: Llama 4, Kokoro-82M, AudioLDM, Hugging Face Diffusers],
       ),
     ),
   ),
@@ -245,16 +256,28 @@
       ),
     ),
     muneca_bielorrusa: (
-      name: "Análisis de Tweets sobre el Caso Muñeca Bielorrusa en Chile",
-      role: "Desarrollador",
+      name: "Análisis de Tweets",
+      role: "Analista de Datos",
       dates: "",
       url: "github.com/amitjaew/muneca_bielorrusa",
       content: (
-        [
-          Análisis de contenido en Twitter sobre el caso "Muñeca Bielorrusa". Este trabajo presenta extracción de datos de X (Twitter) mediante scraping, análisis de sentimientos y detección de comunidades para identificar burbujas discusivas.
-
-          *Herramientas*: Python, Selenium, pandas, networkx, pysentimiento, Louvain
-        ],
+        "Extraje tweets de X relacionados al caso Muñeca Bielorrusa",
+        "Realicé análisis de sentimientos para caracterizar el tono emocional del discurso",
+        "Construí grafos de interacción y detecté comunidades",
+        "Identifiqué patrones de polarización y potenciales burbujas discursivas",
+        [*Autores*: Alexey Mitjaew, Patricio Salvatierra, Aymara Rojas],
+        [*Herramientas utilizadas*: Python, Selenium, pandas, networkx, pysentimiento, Louvain],
+      ),
+    ),
+    sensoria: (
+      name: "SensorIA",
+      role: "Desarrollador",
+      dates: "",
+      url: "github.com/amitjaew/informe-memoria",
+      content: (
+        "Desarrollé una plataforma web accesible que transforma pinturas en experiencias auditivas inmersivas para personas con discapacidad visual",
+        "Implementé pipelines de generación de contenido multimodal: extracción y síntesis de metadatos históricos con LLMs; audio descriptivo con modelos de visión-lenguaje y TTS; y paisajes sonoros interactivos generados mediante segmentación de imagen, detección semántica y síntesis de audio por difusión",
+        [*Herramientas utilizadas*: Llama 4, Kokoro-82M, AudioLDM, Hugging Face Diffusers],
       ),
     ),
   ),
@@ -275,11 +298,27 @@
     ),
     datascience: (
       course-work: [*Attended courses* in Probability & Random Processes, Numerical Analysis, Data Mining, Machine Learning, Digital Image Processing, Computer Vision, Operations Research.],
-      projects: (),
+      skills: (
+        [*Programming & Tools*: Python, SQL, Jupyter],
+        [*Data Analysis & Visualization*: pandas, NumPy, Matplotlib, Seaborn, Plotly],
+        [*Machine Learning*: Scikit-learn, statsmodels],
+        [*Data Collection*: Web scraping, Selenium, APIs],
+      ),
+      projects: (
+        projects_base.eng.muneca_bielorrusa,
+      ),
     ),
     machine-learning: (
-      course-work: [*Attended courses* in Machine Learning, Computer Vision, Data Mining, Digital Image Processing, Probability & Random Processes, Linear Algebra, Numerical Analysis, Digital Communications, Signal Processing],
-      projects: (),
+      course-work: [*Attended courses* in Machine Learning, Computer Vision, Data Mining, Digital Image Processing, Probability & Random Processes, Linear Algebra, Numerical Analysis],
+      skills: (
+        [*ML Tools*: Scikit-learn, PyTorch, TensorFlow, Keras, OpenCV, YOLO],
+        [*Data Processing*: pandas, NumPy, Jupyter],
+        [*NLP & LLMs*: Langchain, Smolagents],
+        [*MLOps & Tools*: Docker, Git, AWS],
+      ),
+      projects: (
+        projects_base.eng.sensoria,
+      ),
     ),
   ),
   esp: (
@@ -295,19 +334,38 @@
         // projects_base.esp.casino,
       ),
     ),
+    datascience: (
+      course-work: [*Cursos Realizados*: Probabilidad y Procesos Aleatorios, Análisis Numérico, Minería de Datos, Aprendizaje Automático, Procesamiento Digital de Imágenes, Visión por Computador, Investigación de Operaciones.],
+      skills: (
+        [*Programación y Herramientas*: Python, SQL, Jupyter],
+        [*Análisis y Visualización de Datos*: pandas, NumPy, Matplotlib, Seaborn, Plotly],
+        [*Aprendizaje Automático*: Scikit-learn, statsmodels],
+        [*Recolección de Datos*: Web scraping, Selenium, APIs],
+      ),
+      projects: (
+        projects_base.esp.muneca_bielorrusa,
+      ),
+    ),
+    machine-learning: (
+      course-work: [*Cursos Realizados*: Aprendizaje Automático, Visión por Computador, Minería de Datos, Procesamiento Digital de Imágenes, Probabilidad y Procesos Aleatorios, Álgebra Lineal, Análisis Numérico],
+      skills: (
+        [*Herramientas de ML*: Scikit-learn, PyTorch, TensorFlow, Keras, OpenCV, YOLO],
+        [*Procesamiento de Datos*: pandas, NumPy, Jupyter],
+        [*NLP y LLMs*: Langchain, Smolagents],
+        [*MLOps y Herramientas*: Docker, Git, AWS],
+      ),
+      projects: (
+        projects_base.esp.sensoria,
+      ),
+    ),
   ),
 )
 
 #let lang = "esp"
-#let variant = "developer"
+#let variant = "machine-learning"
 #let titles = titles_base.at(lang)
 #let content = content_base.at(lang)
 #let variant_content = variant_content_base.at(lang).at(variant)
-
-#let sample_list = (
-  "test1",
-  "test2",
-)
 
 #show: resume.with(
   author: name,
