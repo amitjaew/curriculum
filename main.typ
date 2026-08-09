@@ -293,7 +293,6 @@
       ),
       projects: (
         projects_base.eng.companion,
-        projects_base.eng.casino,
       ),
     ),
     datascience: (
@@ -330,8 +329,6 @@
       ),
       projects: (
         projects_base.esp.companion,
-        // projects_base.esp.muneca_bielorrusa,
-        // projects_base.esp.casino,
       ),
     ),
     datascience: (
@@ -361,8 +358,8 @@
   ),
 )
 
-#let lang = "esp"
-#let variant = "machine-learning"
+#let lang = "eng"
+#let variant = "developer"
 #let titles = titles_base.at(lang)
 #let content = content_base.at(lang)
 #let variant_content = variant_content_base.at(lang).at(variant)
