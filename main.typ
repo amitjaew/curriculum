@@ -45,6 +45,19 @@
     // Work must be an array of dictionaries
     work: (
       (
+        title: "Full Stack Engineer",
+        location: "Remote",
+        company: [Gente Social Research (#link("https://somosgente.cl")[somosgente.cl])],
+        dates: dates-helper(
+          start-date: "Jul 2026",
+          end-date: "Present",
+        ),
+        content: (
+          "Developed and deployed backend systems for social observation and synthetic audience simulation",
+          [*Tools used*: OpenAI API, Apify, Svelte, FastAPI, Docker, Claude Code],
+        ),
+      ),
+      (
         title: "Developer",
         location: "Remote",
         company: "Magnar",
@@ -118,6 +131,19 @@
 
     // Work must be an array of dictionaries
     work: (
+      (
+        title: "Ingeniero Full Stack",
+        location: "Remoto",
+        company: [Gente Social Research (#link("https://somosgente.cl")[somosgente.cl])],
+        dates: dates-helper(
+          start-date: "Julio 2026",
+          end-date: "Presente",
+        ),
+        content: (
+          "Desarrollo e instalación de sistemas de backend para solución de observación social y simulación de audiencias sintéticas.",
+          [*Herramientas utilizadas*: OpenAI API, Apify, Svelte, FastAPI, Docker, Claude Code],
+        ),
+      ),
       (
         title: "Desarrollador",
         location: "Remoto",
