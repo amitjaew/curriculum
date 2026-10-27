@@ -63,7 +63,7 @@
         company: "Magnar",
         dates: dates-helper(
           start-date: "Feb 2026",
-          end-date: "Jun 2026",
+          end-date: "Sep 2026",
         ),
         content: (
           "Developed scraping/extraction modules for Latin American institutional legal documents, integrated into the knowledge base of a generative AI system",
@@ -150,7 +150,7 @@
         company: "Magnar",
         dates: dates-helper(
           start-date: "Febrero 2026",
-          end-date: "Junio 2026",
+          end-date: "Septiembre 2026",
         ),
         content: (
           "Desarrollo de módulos de scraping/extracción de documentos jurídicos de fuentes institucionales latinoamericanas, integrados a la base de conocimiento de un sistema de IA generativa",
