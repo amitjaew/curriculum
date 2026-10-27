@@ -40,7 +40,7 @@
       end-date: "Jan 2026",
     ),
     education-degree: "Telecommunications and Computer Networks Engineering",
-    source-line: [Document source code: https://github.com/amitjaew/curriculum/blob/main/main.typ],
+    // source-line: [Document source code: https://github.com/amitjaew/curriculum/blob/main/main.typ],
 
     // Work must be an array of dictionaries
     work: (
@@ -127,7 +127,7 @@
       end-date: "Enero 2026",
     ),
     education-degree: "Ingeniería Civil Telemática",
-    source-line: [Código fuente documento: https://github.com/amitjaew/curriculum/blob/main/main.typ],
+    // source-line: [Código fuente documento: https://github.com/amitjaew/curriculum/blob/main/main.typ],
 
     // Work must be an array of dictionaries
     work: (
@@ -237,11 +237,7 @@
       dates: "",
       url: "github.com/amitjaew/twitter_community_analysis",
       content: (
-        "Extracted tweets from X related to the Belarusian Doll case",
-        "Performed sentiment analysis to characterize the emotional tone of the discourse",
-        "Built interaction graphs and detected communities",
-        "Identified patterns of polarization and potential discursive bubbles",
-        [*Authors*: Alexey Mitjaew, Patricio Salvatierra, Aymara Rojas],
+        "Extracted and analyzed X posts on the Belarusian Doll case; used sentiment analysis and interaction graphs to detect communities, polarization patterns, and potential discursive bubbles",
         [*Tools used*: Python, Selenium, pandas, networkx, pysentimiento, Louvain],
       ),
     ),
@@ -251,8 +247,7 @@
       dates: "",
       url: "github.com/amitjaew/informe-memoria",
       content: (
-        "Designed and developed an accessible web platform that transforms artworks into immersive audio experiences for visually impaired users using multimodal AI",
-        "Built multimodal content generation pipelines: historical metadata extraction and synthesis with LLMs; descriptive audio with vision-language models and TTS; and interactive soundscapes generated via image segmentation, semantic detection, and diffusion-based audio synthesis",
+        "Developed an accessible web platform that transforms artworks into immersive audio experiences for visually impaired users using multimodal AI for metadata synthesis, vision-language descriptive audio with TTS, and interactive soundscapes",
         [*Tools used*: Llama 4, Kokoro-82M, AudioLDM, Hugging Face Diffusers],
       ),
     ),
@@ -287,11 +282,7 @@
       dates: "",
       url: "github.com/amitjaew/muneca_bielorrusa",
       content: (
-        "Extraje tweets de X relacionados al caso Muñeca Bielorrusa",
-        "Realicé análisis de sentimientos para caracterizar el tono emocional del discurso",
-        "Construí grafos de interacción y detecté comunidades",
-        "Identifiqué patrones de polarización y potenciales burbujas discursivas",
-        [*Autores*: Alexey Mitjaew, Patricio Salvatierra, Aymara Rojas],
+        "Extraje y analicé publicaciones de X sobre el caso Muñeca Bielorrusa; usé análisis de sentimientos y grafos de interacción para detectar comunidades, patrones de polarización y posibles burbujas discursivas",
         [*Herramientas utilizadas*: Python, Selenium, pandas, networkx, pysentimiento, Louvain],
       ),
     ),
@@ -301,8 +292,7 @@
       dates: "",
       url: "github.com/amitjaew/informe-memoria",
       content: (
-        "Desarrollé una plataforma web accesible que transforma pinturas en experiencias auditivas inmersivas para personas con discapacidad visual",
-        "Implementé pipelines de generación de contenido multimodal: extracción y síntesis de metadatos históricos con LLMs; audio descriptivo con modelos de visión-lenguaje y TTS; y paisajes sonoros interactivos generados mediante segmentación de imagen, detección semántica y síntesis de audio por difusión",
+        "Desarrollé una plataforma web accesible que transforma pinturas en experiencias auditivas inmersivas para personas con discapacidad visual usando IA multimodal para metadatos históricos, audio descriptivo con modelos visión-lenguaje y TTS, y paisajes sonoros interactivos",
         [*Herramientas utilizadas*: Llama 4, Kokoro-82M, AudioLDM, Hugging Face Diffusers],
       ),
     ),
@@ -315,7 +305,7 @@
       course-work: [*Attended courses* in Web & Mobile Application Design, Software Engineering, Analysis & Design of Software, Object-Oriented Programming, Data Structures & Algorithms, Operating Systems, Computer Networks, Database Systems, Cryptography & Information Security, Machine Learning, Computer Vision.],
       skills: (
         [*Programming Languages*: Python, JavaScript, TypeScript, Rust, C++, HTML/CSS],
-        [*Technologies*: React, Svelte, Tailwind CSS, FastAPI, NestJS, Docker, Colyseus, RabbitMQ, Redux, Google Charts, Langchain, ScikitLearn, Git, AWS],
+        [*Technologies*: OpenAI API, Claude Code, OpenCode, LangChain, smolagents, Apify, Svelte, FastAPI, Docker, Git, AWS],
       ),
       projects: (
         projects_base.eng.companion,
@@ -324,10 +314,7 @@
     datascience: (
       course-work: [*Attended courses* in Probability & Random Processes, Numerical Analysis, Data Mining, Machine Learning, Digital Image Processing, Computer Vision, Operations Research.],
       skills: (
-        [*Programming & Tools*: Python, SQL, Jupyter],
-        [*Data Analysis & Visualization*: pandas, NumPy, Matplotlib, Seaborn, Plotly],
-        [*Machine Learning*: Scikit-learn, statsmodels],
-        [*Data Collection*: Web scraping, Selenium, APIs],
+        [*Technologies*: Python, SQL, Jupyter, pandas, NumPy, Matplotlib, Seaborn, Plotly, Scikit-learn, statsmodels, Web scraping, Selenium, APIs],
       ),
       projects: (
         projects_base.eng.muneca_bielorrusa,
@@ -336,10 +323,7 @@
     machine-learning: (
       course-work: [*Attended courses* in Machine Learning, Computer Vision, Data Mining, Digital Image Processing, Probability & Random Processes, Linear Algebra, Numerical Analysis],
       skills: (
-        [*ML Tools*: Scikit-learn, PyTorch, TensorFlow, Keras, OpenCV, YOLO],
-        [*Data Processing*: pandas, NumPy, Jupyter],
-        [*NLP & LLMs*: Langchain, Smolagents],
-        [*MLOps & Tools*: Docker, Git, AWS],
+        [*Technologies*: Scikit-learn, PyTorch, TensorFlow, Keras, OpenCV, YOLO, pandas, NumPy, Jupyter, Langchain, Smolagents, Docker, Git, AWS],
       ),
       projects: (
         projects_base.eng.sensoria,
@@ -351,7 +335,7 @@
       course-work: [*Cursos Realizados*: Diseño de Aplicaciones Web y Móviles, Ingeniería de Software, Análisis y Diseño de Software, Programación Orientada a Objetos, Estructuras de Datos y Algoritmos, Sistemas Operativos, Redes de Computadores, Sistemas de Bases de Datos, Criptografía y Seguridad de la Información, Aprendizaje Automático, Visión por Computador.],
       skills: (
         [*Lenguajes de Programación*: Python, JavaScript, TypeScript, Rust, C++, HTML/CSS],
-        [*Tecnologías*: React, Svelte, Tailwind CSS, FastAPI, NestJS, Docker, Colyseus, RabbitMQ, Redux, Google Charts, Langchain, ScikitLearn, Linux, Git, AWS],
+        [*Tecnologías*: OpenAI API, Claude Code, OpenCode, LangChain, smolagents, Apify, Svelte, FastAPI, Docker, Git, AWS],
       ),
       projects: (
         projects_base.esp.companion,
@@ -360,10 +344,7 @@
     datascience: (
       course-work: [*Cursos Realizados*: Probabilidad y Procesos Aleatorios, Análisis Numérico, Minería de Datos, Aprendizaje Automático, Procesamiento Digital de Imágenes, Visión por Computador, Investigación de Operaciones.],
       skills: (
-        [*Programación y Herramientas*: Python, SQL, Jupyter],
-        [*Análisis y Visualización de Datos*: pandas, NumPy, Matplotlib, Seaborn, Plotly],
-        [*Aprendizaje Automático*: Scikit-learn, statsmodels],
-        [*Recolección de Datos*: Web scraping, Selenium, APIs],
+        [*Tecnologías*: Python, SQL, Jupyter, pandas, NumPy, Matplotlib, Seaborn, Plotly, Scikit-learn, statsmodels, Web scraping, Selenium, APIs],
       ),
       projects: (
         projects_base.esp.muneca_bielorrusa,
@@ -372,10 +353,7 @@
     machine-learning: (
       course-work: [*Cursos Realizados*: Aprendizaje Automático, Visión por Computador, Minería de Datos, Procesamiento Digital de Imágenes, Probabilidad y Procesos Aleatorios, Álgebra Lineal, Análisis Numérico],
       skills: (
-        [*Herramientas de ML*: Scikit-learn, PyTorch, TensorFlow, Keras, OpenCV, YOLO],
-        [*Procesamiento de Datos*: pandas, NumPy, Jupyter],
-        [*NLP y LLMs*: Langchain, Smolagents],
-        [*MLOps y Herramientas*: Docker, Git, AWS],
+        [*Tecnologías*: Scikit-learn, PyTorch, TensorFlow, Keras, OpenCV, YOLO, pandas, NumPy, Jupyter, Langchain, Smolagents, Docker, Git, AWS],
       ),
       projects: (
         projects_base.esp.sensoria,
@@ -500,4 +478,4 @@
 
 
 #v(5pt)
-#align(right)[#content.source-line]
+// #align(right)[#content.source-line]
